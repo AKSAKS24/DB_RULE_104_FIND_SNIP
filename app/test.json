@@ -1,0 +1,9 @@
+{
+    "pgm_name": "ZTEST_RULE104_COMBINED",
+    "inc_name": "ZTEST_RULE104_COMB_INC",
+    "type": "PROG",
+    "name": "MAIN_BLOCK",
+    "start_line": 5,
+    "end_line": 200,
+    "code": "DATA lv_text TYPE string.\nDATA lv_xbin TYPE xstring.\nFIND 'X' IN lv_text.\nFIND 'Y' IN lv_text IN CHARACTER MODE.\nFIND x'0A' IN lv_xbin.\nFIND x'0D' IN lv_xbin IN BYTE MODE.\n"
+}
